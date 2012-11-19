@@ -9,7 +9,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.ListFragment;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -18,12 +20,39 @@ public class NumbersFragment extends ListFragment {
 	boolean mDualPane;
     int mCurCheckPosition = 0;
 
+    enum EnumberAssets {Enumbers_colors, Enumbers_preservatives};
+    
+    
+    public static NumbersFragment newInstance(EnumberAssets type) {
+    	NumbersFragment f = new NumbersFragment();
+
+        // Supply index input as an argument.
+        Bundle args = new Bundle();
+        String asset = type.name()+".json";
+        args.putString("asset", asset);
+        f.setArguments(args);
+
+        return f;
+    }
+    
+    
+    public String getAssetFile() {
+        return (String) getArguments().get("asset");
+    }
+    
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.activity_main, container, false);
+        return v;
+    }
+    
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
         ENumbersParser parser = new ENumbersParser(getActivity());
-        List<ENumber> enumbers = parser.parseFromAssets("Enumbers.json");
+        List<ENumber> enumbers = parser.parseFromAssets(getAssetFile());
         
         // Populate list with our static array of titles.
         setListAdapter(new ArrayAdapter<ENumber>(getActivity(),
