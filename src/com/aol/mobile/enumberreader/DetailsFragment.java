@@ -1,6 +1,7 @@
 package com.aol.mobile.enumberreader;
 
 
+import com.aol.mobile.core.moreapps.MoreAppsView;
 import com.aol.mobile.enumberreader.model.ENumber;
 
 import android.content.Intent;
@@ -50,7 +51,7 @@ public class DetailsFragment extends Fragment {
             // the view hierarchy; it would just never be used.
             return null;
         }
-        
+        /*
         ENumber enumber = getENumber();
         getActivity().setTitle(enumber.getName());
         getActivity().setProgressBarVisibility(true);
@@ -65,6 +66,10 @@ public class DetailsFragment extends Fragment {
     	myWebView.loadUrl(enumber.getWikipediaUrl());
 
     	return myWebView;
+    	*/
+        
+        View view = new MoreAppsView(getActivity());
+        return view;
     }
     
     private class MyWebViewClient extends WebViewClient {

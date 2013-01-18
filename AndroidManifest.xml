@@ -7,7 +7,8 @@
         android:minSdkVersion="9"
         android:targetSdkVersion="15" />
 
-     <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
    
      
     <application
@@ -27,6 +28,18 @@
        		android:name=".DetailsActivity"
        		android:screenOrientation="sensor"
        		>
+        </activity>
+        
+         <activity 
+       		android:name="com.aol.mobile.core.moreapps.MoreAppsActivity"
+      		android:screenOrientation="sensor"
+      		android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        
+         <activity 
+       		android:name="com.aol.mobile.core.workwithus.WorkWithUsActivity"
+      		android:screenOrientation="sensor"
+      		android:configChanges="keyboardHidden|orientation|screenSize">
         </activity>
         
     </application>

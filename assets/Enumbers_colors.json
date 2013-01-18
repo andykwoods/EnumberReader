@@ -3,32 +3,32 @@
            {
                 "name":"Curcumin",
                 "number":"100",
-                "url":"http://en.mobile.wikipedia.org/wiki/Curcumin"
+                "url":"http://en.mobile.wikipedia.org/wiki/Curcumin",
                 "good":"Approved in the EU and in the US."
             },
             {
                 "name":"Riboflavin(Vitamin B2)",
                 "number":"101",
-                "url":"http://en.mobile.wikipedia.org/wiki/Riboflavin"
+                "url":"http://en.mobile.wikipedia.org/wiki/Riboflavin",
                 "good":"Approved in the EU and in the US."
             },
             {
                 "name":"Riboflavin-5\"-Phosphate",
                 "number":"101a",
-                "url":"http://en.mobile.wikipedia.org/wiki/Riboflavin-5%27-Phosphate"
+                "url":"http://en.mobile.wikipedia.org/wiki/Riboflavin-5%27-Phosphate",
                 "good":"Approved in the EU."
             },
             {
                 "name":"Tartrazine",
                 "number":"102",
-                "url":"http://en.mobile.wikipedia.org/wiki/E102"
+                "url":"http://en.mobile.wikipedia.org/wiki/E102",
                 "good":"Approved in the EU and in the US."
             },
             {
                 "name":"Alkannin",
                 "number":"103",
-                "url":"http://en.mobile.wikipedia.org/wiki/E103"
-                "good":"Approved in the EU."
+                "url":"http://en.mobile.wikipedia.org/wiki/E103",
+                "good":"Approved in the EU.",
                 "bad":"Undergoing a voluntary phase-out in the UK."
             },
             {
@@ -54,8 +54,8 @@
             {
                 "name":"Sunset Yellow FCF",
                 "number":"110",
-                "url":"http://en.mobile.wikipedia.org/wiki/Sunset_Yellow_FCF"
-                "good":"Approved in the US."
+                "url":"http://en.mobile.wikipedia.org/wiki/Sunset_Yellow_FCF",
+                "good":"Approved in the US.",
                 "bad":"Banned in Norway. Products in the EU require warnings and its use is being phased-out."
             },
             {
@@ -66,37 +66,37 @@
             {
                 "name":"Carmine",
                 "number":"120",
-                "url":"http://en.mobile.wikipedia.org/wiki/Carmine"
+                "url":"http://en.mobile.wikipedia.org/wiki/Carmine",
                 "good":"Approved in the EU and the US."
             },
             {
                 "name":"Citrus Red 2",
                 "number":"121",
-                "url":"http://en.mobile.wikipedia.org/wiki/E121"
+                "url":"http://en.mobile.wikipedia.org/wiki/E121",
                 "good":"Approved in the United States only for use in colouring the skin of oranges."
             },
             {
                 "name":"Carmoisine",
                 "number":"122",
-                "url":"http://en.mobile.wikipedia.org/wiki/E122"
+                "url":"http://en.mobile.wikipedia.org/wiki/E122",
                 "bad":"Undergoing a voluntary phase-out in the UK. Currently banned in Canada, Japan, Norway, USA. EU currently evaluating health risks."
             },
             {
                 "name":"Amaranth (FD&C Red 2)",
                 "number":"123",
-                "url":"http://en.mobile.wikipedia.org/wiki/Amaranth_(dye)"
+                "url":"http://en.mobile.wikipedia.org/wiki/Amaranth_(dye)",
                 "good":"Approved in the EU."
             },
             {
                 "name":"Ponceau 4R",
                 "number":"124",
-                "url":"http://en.mobile.wikipedia.org/wiki/E124"
+                "url":"http://en.mobile.wikipedia.org/wiki/E124",
                  "good":"Approved in the EU."
             },
             {
                 "name":"Scarlet GN",
                 "number":"125",
-                "url":"http://en.mobile.wikipedia.org/wiki/E125"
+                "url":"http://en.mobile.wikipedia.org/wiki/E125",
                 "bad":"Only permitted for externally applied drugs and cosmetics in the US."
             },
             {
@@ -107,7 +107,7 @@
             {
                 "name":"Erythrosine",
                 "number":"127",
-                "url":"http://en.mobile.wikipedia.org/wiki/Erythrosine"
+                "url":"http://en.mobile.wikipedia.org/wiki/Erythrosine",
                 "good":"Approved in the EU and the US."
             },
             {
@@ -118,8 +118,8 @@
             {
                 "name":"Allura Red AC",
                 "number":"129",
-                "url":"http://en.mobile.wikipedia.org/wiki/E129"
-                "good":"Approved in the EU and the US."
+                "url":"http://en.mobile.wikipedia.org/wiki/E129",
+                "good":"Approved in the EU and the US.",
                 "bad":"Banned in Switzerland. Undergoing a voluntary phase out in the UK."
             }
         ]
