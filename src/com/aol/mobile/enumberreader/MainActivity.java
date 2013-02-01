@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Vector;
 
 import com.aol.mobile.core.moreapps.MoreAppsListFragment;
+import com.aol.mobile.core.workwithus.WorkWithUsListFragment;
 import com.aol.mobile.enumberreader.NumbersFragment.EnumberAssets;
 import com.aol.mobile.enumberreader.adapter.PagerAdapter;
 
@@ -39,7 +40,8 @@ public class MainActivity extends FragmentActivity {
 		List<Fragment> fragments = new Vector<Fragment>();
 		fragments.add(NumbersFragment.newInstance(EnumberAssets.Enumbers_colors));
 		fragments.add(NumbersFragment.newInstance(EnumberAssets.Enumbers_preservatives));
-		fragments.add(Fragment.instantiate(this, DetailsFragment.class.getName()));
+		fragments.add(Fragment.instantiate(this, WorkWithUsListFragment.class.getName()));
+		//fragments.add(Fragment.instantiate(this, DetailsFragment.class.getName()));
 		this.mPagerAdapter  = new PagerAdapter(super.getSupportFragmentManager(), fragments);
 		//
 		ViewPager pager = (ViewPager)super.findViewById(R.id.viewpager);
