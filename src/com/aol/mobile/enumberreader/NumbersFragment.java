@@ -3,6 +3,7 @@ package com.aol.mobile.enumberreader;
 import java.util.List;
 
 import com.aol.mobile.core.moreapps.MoreAppsActivity;
+import com.aol.mobile.core.workwithus.Constants;
 import com.aol.mobile.core.workwithus.WorkWithUsActivity;
 import com.aol.mobile.enumberreader.data.ENumbersParser;
 import com.aol.mobile.enumberreader.model.ENumber;
@@ -88,6 +89,7 @@ public class NumbersFragment extends ListFragment {
     public void onListItemClick(ListView l, View v, int position, long id) {
         //showDetails(position);
         Intent intent = new Intent(getActivity(), WorkWithUsActivity.class); 
+        intent.putExtra(Constants.THEME_RESOURCE_ID, com.aol.mobile.uicore.R.style.Theme_Large_Dark);
         startActivity(intent);
     }
 
